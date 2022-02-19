@@ -36,3 +36,73 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-main {
+  padding: 10px;
+}
+
+.nav-bar {
+  height: 50px;
+  display: flex;
+  background-color: rgb(243, 79, 80);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-logoImg {
+  height: 30px;
+}
+
+.card-main {
+  display: block;
+  width: 100%;
+}
+.card-divmain {
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+.card-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-info {
+  display: block;
+  width: 250px;
+  justify-content: right;
+  padding: 20px;
+}
+
+.card-coverImg {
+  height: 200px;
+  border-radius: 9px;
+}
+
+.card-location {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+.card-tagImg {
+  height: 15px;
+}
+
+.card-title {
+  display: flex;
+}
+.card-date {
+  display: flex;
+  font-weight: bold;
+  font-size: 10px;
+}
+.card-description {
+  text-align: left;
+  font-size: 10px;
+}
